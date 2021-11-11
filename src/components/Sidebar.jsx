@@ -16,7 +16,7 @@ const Logo = () => {
   return (
     <div className='py-3 w-full flex flex-col items-center justify-center'>
       <img src='logo.png' alt='Logo' className='h-30 ' />
-      <span className='my-2 text-xl font-bold text-center'>Sistema de gestión de proyectos</span>
+      <span className='my-2 text-xl text-white font-bold text-center'>Sistema de gestión de proyectos</span>
     </div>
   );
 };
@@ -66,8 +66,8 @@ const SidebarRoute = ({ to, title, icon }) => {
         to={to}
         className={({ isActive }) =>
           isActive
-            ? 'sidebar-route text-white bg-indigo-700'
-            : 'sidebar-route text-gray-900 hover:text-white hover:bg-indigo-400'
+            ? 'sidebar-route text-white bg-red-400'
+            : 'sidebar-route text-white hover:bg-gray-500'
         }
       >
         <div className='flex items-center'>
