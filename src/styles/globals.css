@@ -18,3 +18,13 @@
 .sidebar-route {
   @apply rounded-md flex w-full justify-between cursor-pointer items-center m-3 p-3;
 }
+
+.contenedor{
+  position: absolute;
+  width: 40rem;
+  height: 25rem;
+  left: 8rem;
+  top: 12rem;
+  background-color: rgba(148, 123, 211, 0.3);
+  
+}

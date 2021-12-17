@@ -5,9 +5,11 @@ const SidebarLinks = () => {
   return (
     <ul className='mt-12'>
       <SidebarRoute to='' title='Inicio' icon='fas fa-home' />
-      <SidebarRoute to='/page2' title='Pagina2' icon='fas fa-smile-wink' />
-      <SidebarRoute to='/category1' title='Catego 1' icon='fab fa-amazon' />
-      <SidebarRoute to='/category1/page1' title='Test' icon='fas fa-car' />
+      <SidebarRoute to='/perfil' title='Mi Perfil' icon='fas fa-smile-wink' />
+      <SidebarRoute to='/proyectos' title='Proyectos' icon='fas fa-book-open' />
+      <SidebarRoute to='/usuarios' title='Usuarios' icon='fas fa-users'/>
+      <div className="text-gray-50 mt-16 ml-10"><button>Cerrar Sesion</button></div>
+
     </ul>
   );
 };

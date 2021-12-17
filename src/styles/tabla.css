@@ -1,0 +1,29 @@
+.tabla {
+    width: 85%;
+    margin: 4px;
+    overflow-y: scroll;
+  }
+  
+  .tabla td,
+  .tabla th {
+    padding: 8px;
+  }
+  
+  .tabla th {
+    background-color: transparent;
+    color:white;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    text-align: left;
+  }
+  
+  .tabla tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .tabla tr:hover {
+    background-color: #ddd;
+  }
+  
