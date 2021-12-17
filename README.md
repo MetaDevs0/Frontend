@@ -1,4 +1,8 @@
-# Frontend
+# Frontend Repo - MetaDevs Team
 
-Anderson Mendoza 
-Paula Andrea Trejos Silva
+![MetaDevs related image]( https://cdn.iconscout.com/icon/premium/png-128-thumb/backend-developer-477872.png "MetaDevs")
+* Anderson Mendoza 
+* Paula Andrea Trejos Silva 
+* Laura Ceballos Aguirre 
+* Ivan Jose Rojas :iphone:
+* Sarha Melissa Chica Otalvaro
